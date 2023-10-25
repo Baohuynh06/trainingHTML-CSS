@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .z-index {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+        }
+
+        .float {
+            width: 100px;
+            height: 120px;
+            float: right;
+            margin-left: 10px;
+        }
+
+        .clear {
+            border: 3px solid black;
+            clear: right;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>The z-index Property</h1>
+        <img class="z-index"
+            src="https://images.pexels.com/photos/11426649/pexels-photo-11426649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            style="width: 100px;height: 120px;">
+        <p>Because the image has a z-index of -1, it will be placed behind the heading.</p>
+    </div>
+
+    <div style="width: 300px;">
+        <h2> Float </h2>
+        <img class="float"
+            src="https://images.pexels.com/photos/11426649/pexels-photo-11426649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="">
+        <p class="clear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis repudiandae veritatis repellat.
+            Necessitatibus, ad aliquid.</p>
+    </div>
+
+</body>
+
+</html>
